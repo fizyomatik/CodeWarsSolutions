@@ -12,11 +12,7 @@ public class EvenOrOdd {
     }
 
     public static String even_or_odd(int i){
-        if (i%2==0){
-            return "Even";
-        }else {
-            return "Odd";
-        }
+       return i%2==0 ? "Even":"Odd";
     }
 
 
